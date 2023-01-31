@@ -59,7 +59,7 @@ const Home: NextPage = () => {
         <title>Git me cmd</title>
         <meta
           property="og:image"
-          content="https://gitmecmd.xyz/api/ogImage"
+          content="https://www.gitmecmd.xyz/api/ogImage"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

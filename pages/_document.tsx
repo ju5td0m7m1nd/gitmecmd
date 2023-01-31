@@ -24,11 +24,11 @@ class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://gitmecmd.xyz/api/ogImage"
+            content="https://www.gitmecmd.xyz/api/ogImage"
           />
           <meta
             name="twitter:image"
-            content="https://gitmecmd.xyz/api/ogImage"
+            content="https://www.gitmecmd.xyz/api/ogImage"
           />
         </Head>
         <body>
