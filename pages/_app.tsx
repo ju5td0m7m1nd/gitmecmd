@@ -1,6 +1,7 @@
 import type { AppProps } from "next/app";
 import { ChakraProvider } from '@chakra-ui/react'
 import ReactGA from 'react-ga4';
+import { Analytics } from '@vercel/analytics/react';
 
 import "../styles/globals.css";
 
@@ -11,6 +12,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider>
       <Component {...pageProps} />
+      <Analytics />
     </ChakraProvider>
   );
 }
