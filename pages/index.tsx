@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 
 
   const prompt =
-   `Give me the git command to achieve following: ${question}, include the command only`
+   `Give me the git command to achieve following: ${question}, answer the command only`
  ;
 
   const fetchAnswer = async (e: any) => {
